@@ -1,0 +1,196 @@
+/* Color */
+@color-red: #a4172a;
+@color-black: #000000;
+@color-white: #ffffff;
+@color-yellow: #ffc303;
+
+@media (max-width: 1199px) {
+	.home-page .reservierung .btn-reservieren {
+	margin-left: 25px;
+	max-width: 229px;
+	}
+
+}
+
+@media (max-width: 1023px) {
+	header .nav li a {
+		padding: 10px 8px;
+    	font-size: 12px !important;	
+    	line-height: 35px;
+	}
+	header .carousel-caption {
+		bottom: 30%;
+	    top: 20%;
+	    right: 20%;
+	    left: 20%;
+	    padding-bottom: 30px;
+	
+	}
+	.diagonal_top {
+		height: 40px;
+		width: 100%;
+		background-color: white;
+		transform: skewY(-2deg) translate(0px,40px);
+		transform-origin: left;
+	}
+	.diagonal_bottom {
+		height: 40px;
+		width: 100%;
+		background-color: white;
+		transform: skewY(-2deg);
+		transform-origin: left;
+	}
+	.home-page .reservierung .btn-reservieren {
+	margin-left: 23px;
+	max-width: 229px;
+	}
+}
+
+@media (max-width: 767px) {
+	.q1{
+		margin-top: 30px;
+	}
+	.home-page .reservierung .btn-reservieren {
+		
+		max-width: 200px;
+	}
+	header { 
+		& .navbar-toggle {
+			background-color: @color-white;
+		}
+		& .navbar-toggle .icon-bar {
+			background-color: @color-red;	
+		}
+		& .menu-header .navbar-right li {
+			background-color: rgba(0, 0, 0, 0.9);
+			border-bottom: 1px solid @color-white;
+			& a {
+				font-size: 15px !important;
+				padding-left: 15px;
+			}
+		}
+		.carousel-caption {
+			&.carousel-caption-background {
+				display:none;
+			}
+		}
+		#carousel-slider #menu-wrapper {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+		&.carousel-caption {
+			bottom: 30%;
+		    top: 10%;
+		    right: 20%;
+		    left: 20%;
+		    padding-bottom: 30px;
+		}
+	}
+	.comments #fade-quote-carousel.carousel .carousel-inner .item { 
+		min-height: 180px;
+	}
+	footer {
+		padding: 20px 0 30px 0;
+		& h3 {
+			margin-bottom: 20px;
+		}
+	}
+	.diagonal_top {
+		height: 30px;
+		width: 100%;
+		background-color: white;
+		transform: skewY(-2deg) translate(0px,30px);
+		transform-origin: left;
+	}
+	.diagonal_bottom {
+		height: 30px;
+		width: 100%;
+		background-color: white;
+		transform: skewY(-2deg);
+		transform-origin: left;
+	}
+
+
+}
+
+@media (max-width: 479px) {
+	.zur-speisekarte {
+		padding: 5px 30px !important;
+	}
+	.diagonal_top {
+		height: 20px;
+		width: 100%;
+		background-color: white;
+		transform: skewY(-2deg) translate(0px,20px);
+		transform-origin: left;
+	}
+	.diagonal_bottom {
+		height: 20px;
+		width: 100%;
+		background-color: white;
+		transform: skewY(-2deg);
+		transform-origin: left;
+	}
+	.col-xxs-12 {
+		width: 100%;
+		float: left;
+		position: relative;
+		min-height: 1px;
+		padding: 0 15px;
+		margin-top: 0px;
+	}
+	.q2 {
+		margin-top: 30px;
+	}
+
+	.home-page .reservierung .btn-reservieren {
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 319px) {
+	.zur-speisekarte {
+		padding: 5px 2px !important;
+	}
+
+	.home-page .reservierung .btn-reservieren {
+		margin-left: 0px;
+	}
+}
+
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+	.home-page .a-la-carte .menu-row {
+		min-height: 120px;
+	}
+}
+
+@media (min-width: 992px) {
+	.home-page .a-la-carte .menu-row {
+		min-height: 150px;
+	}
+}
+
+@media (min-width: 1024px) {  
+	.menu-header {
+	    width: 88% !important;
+	}
+}
+@media (min-width: 1200px) { 
+	.container {
+		width: 1170px !important; 
+	} 
+	.menu-header {
+	    width: 80% !important;
+	}
+	.diagonal_top {
+		transform: skewY(-1.5deg) translate(0px, 50px)
+	}
+	.diagonal_bottom{
+		transform: skewY(-1.5deg);
+	}
+}

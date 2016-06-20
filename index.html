@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Vietime</title>
+
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.less" rel="stylesheet/less">
+		<link href="css/responsive.less" rel="stylesheet/less">
+		<link rel="stylesheet" type="text/css" href="vendor/datetimepicker-master/jquery.datetimepicker.css"/>
+</head>
+	</head>
+	<body>
+  		<div class="body-wrapper">
+  			<!-- Header of Website -->
+			<header id="header-block">
+				<div class="contact">
+					<div class="container">
+						<div class="row">
+							
+								<div class="block col-lg-3 col-sm-5 col-xs-10">
+									<img src="images/icons/pinzeichen.png"/>
+									<span>Chausseestraße 11</span><span class="">, 10115 Berlin</span>
+								</div>
+								<div class="block col-lg-3 col-sm-5 col-xs-2">
+									<a href="tel:03028883305"><img src="images/icons/telefon.png"/></a>
+									<span class="hidden-xs">Telefon 030 288 83 305</span>
+								</div>
+							
+						</div>
+					</div>
+				</div><!-- End .contact -->
+				
+				<div id="carousel-slider" class="carousel slide" data-ride="carousel" style="position: relative;">
+					<div class="container" id="menu-wrapper">
+						<div class="menu-header" style="position: absolute; z-index: 9999; width: 100%;">
+							<!-- Logo and Toggle navigation -->
+						    <div class="navbar-header">
+						      	<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						        	<span class="sr-only">Toggle navigation</span>
+						        	<span class="icon-bar"></span>
+						        	<span class="icon-bar"></span>
+						        	<span class="icon-bar"></span>
+						      	</button>
+						      	<a href="#" class="navbar-brand">
+						      		Vietime
+						      	</a>
+						    </div> <!-- end Logo and Toggle navigation -->
+
+						    <!-- Menu Top -->
+						    <nav class="collapse navbar-collapse bs-navbar-collapse">
+						      	<ul class="nav navbar-nav navbar-right">
+						        	<li><a href="#willkommen" class="menu-item">Willkommen</a></li>
+						        	<li><a href="#restaurant" class="menu-item">Restaurant</a></li>
+						        	<li><a href="#reservierung" class="menu-item">Reservierung</a></li>
+						        	<li><a href="#highlights" class="menu-item">Highlights</a></li>
+						        	<li><a href="#a-la-carte" class="menu-item">À la carte</a></li>
+						        	<li><a href="#galerie" class="menu-item">Galerie</a></li>
+						        	<li><a href="#lieferservice" class="menu-item">Lieferservice</a></li>
+						        	<li><a href="#kontakt" class="menu-item">Kontakt</a></li>
+						      	</ul>
+						    </nav> <!-- End Menu Top -->
+					    </div>
+					</div><!-- End .menu-header -->
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox" style="">
+					    <div class="item active">
+						    <img src="images/slider/garnele-spiesse-vietime.jpg" class="img-slider" alt="Vietime">
+					    </div>
+					    <div class="item">
+					      	<img src="images/slider/reistasche-garnele-vietime.jpg" class="img-slider" alt="Vietime">
+					    </div>
+					    <div class="item">
+					      	<img src="images/slider/rotcurry-gegrillte-huhn-vietime.jpg" class="img-slider" alt="Vietime">
+					    </div>
+					    <div class="item">
+					      	<img src="images/slider/suess-sauer-huhn-vietime.jpg" class="img-slider" alt="Vietime">
+					    </div>
+					    <div class="item">
+					      	<img src="images/slider/teigtasche-fritiert-vietime.jpg" class="img-slider" alt="Vietime">
+					    </div>
+				  	</div>
+
+				  	<!-- Controls -->
+					<a class="left carousel-control hidden-xs" href="#carousel-slider" role="button" data-slide="prev">
+						<img src="images/icons/pfeil_zurueck.png" class="glyphicon-chevron-left">
+					    <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control hidden-xs" href="#carousel-slider" role="button" data-slide="next">
+						<img src="images/icons/pfeil_vor.png" class="glyphicon-chevron-right">
+					    <span class="sr-only">Next</span>
+					</a>
+					<div class="carousel-caption">
+						<div class="carousel-caption-background hidden-sm hidden-md hidden-lg">
+							<img src="images/icons/logo_slide _thum.png" alt="">
+							<p class="slider-slogan">ZEIT FÜR ASIATISCHE GENÜSSE</p>
+						</div>
+						<div class="carousel-caption-default hidden-xs">
+			      		<img src="images/icons/logo_slide.png" alt="Vietime"/>
+			      		<p class="slider-slogan">ZEIT FÜR ASIATISCHE GENÜSSE</p>
+			      		</div>
+					</div>
+				</div>
+			</header> <!-- End Header of Website -->
+			<div class="diagonal_bottom"></div>
+
+			<!-- Main Content of Website -->
+			<div class="main-wrapper home-page">
+				<div class="willkommen-restaurent">
+					<div class="container">
+						<div id="willkommen" class="willkommen row">
+							<div class="col-sm-8 col-sm-offset-2 col-sx-12 col-xs-offset-0">
+								<h2>Willkommen</h2>
+								<p>in unserem Restaurant in Berlin-Mitte! Unser Team von spezialisierten Köchen bietet Ihnen eine reiche Auswahl aus der traditionellen und neuen vietnamesisch- asiatischen Küche “Street Food”. Frisch serviert mit typischem asiatischem Charme.</p>
+							</div>
+						</div>
+						<div id="restaurant" class="restaurent row">
+							<!--<div class="col-sm-5 col-sm-offset-1 col-xs-12">-->
+							<div class="col-sm-5 col-sm-offset-1 col-xs-12">
+								<img src="images/icons/feuer.png"/>
+								<h2>Restaurant</h2>
+								<p>Frische  ist  der  Schlüssel zum Geschmackserlebnis vietnamesischer Kochkunst. Deshalb wählen wir die besten, frischen Zutaten für Sie aus.</p>
+								<p>Die Vielfalt vietnamesischer Gerichte ist das Resultat einer nahezu unbeschränkten Kombinationsmöglichkeit von Gemüsesorten, Kräutern und anderen Zutaten.Kurz gedünstet bleiben die Zutaten bissfest, sowie reich an Vitaminen und Aroma.</p>
+							</div>
+							<!--<div class="image-bg col-sm-5 col-xs-12">-->
+							<div class="image-bg col-sm-5 col-xs-12">
+								<img src="images/restaurant/vorbereitung-vietime.jpg" alt="Restaurant"/>
+							</div>
+						</div>
+					</div>
+				</div><!-- End .willkommen-restaurent -->
+
+				
+				<div class="diagonal_top"></div>
+				<div id="reservierung" class="reservierung">
+					<div class="container">
+						<form id="register-form" method="post" action="">
+							<div class="row">
+								<div class="col-sm-12 col-xs-12">
+									<h2>Reservierung</h2>
+								</div>
+								<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+								  	<div class="col-sm-4 col-xs-12 form-group">
+									    <label for="rname">Name *</label>
+									    <input type="text" class="form-control" id="rname" name="rname">
+								  	</div>
+								  	<div class="col-sm-4 col-xs-12 form-group">
+									    <label for="remail">E-Mail *</label>
+									    <input type="email" class="form-control" id="remail" name="remail" >
+								  	</div>
+								  	<div class="col-sm-4 col-xs-12 form-group">
+									    <label for="rtelefon">Telefon *</label>
+									    <input type="text" class="form-control" id="rtelefon" name="rtelefon" >
+								  	</div>
+								  	<div class="col-sm-4 col-xs-12 form-group">
+									    <label for="rdate">Datum & Uhrzeit *</label>									  
+									<div class='input-group date' id='datetimepicker1' style="width: 100%;">
+					                   	<input type="text" class="form-control" id="datetimepicker" name="datetimepicker" style="cursor: pointer;">
+						                   	<span id="btn-calendar" class="btn input-group-addon" style=" position: absolute; ;top: 0px;right: 0px;height:34px;width: 40px;">
+						                    	<span class="glyphicon glyphicon-calendar"></span>
+						                    </span>
+					                </div>
+								  	</div>
+								  	<div class="col-sm-4 col-xs-12 form-group">
+									    <label for="rperson">Personenanzahl *</label>
+									    <input type="text" class="form-control" id="rperson" name="rperson">
+								  	</div>
+								  	<div class="col-sm-4 col-xs-12 form-group">
+									    <label for="exampleInputPassword1">Anmerkung</label>
+									    <input type="text" class="form-control"id="ranmerkung" name="ranmerkung" >
+								  	</div>
+								  	<div class="col-sm-12 col-xs-12 form-group" >
+									  	<div id="frmContact">
+											
+											<div   style="float: left;">										
+												<img id="captcha_code" class="img-rounded" style=" opacity: 0.5; border: 2px solid white;" src="vendor/captcha_code.php" /> 
+												<input type="text" name="captcha" style=" margin-left: 5px; text-align: center; width: 100px; color: red;" id="captcha" class="demoInputBox">
+												<div name="submit" style="background: rgba(255, 255, 255, 0); margin-left: 5px; border: 1px solid white; color: white;  "class="btn btnRefresh" onClick="refreshCaptcha();"><img style="width: 20px;  height: 20px; " src="images/icons/refresh.png" /></div>
+												<div id="mail-status" style="color: #ff0000; margin-top: 10px;"></div>
+											</div>									
+										</div>
+									    <button name="submit" type="submit" class="btnAction btn-reservieren" style="float: left; margin-top: 5px; ">Reservieren</button>
+								  	</div>
+								</div>
+						  	</div>
+						</form>
+					</div>
+				</div><!-- End .reservierung -->
+				<div class="diagonal_bottom"></div>
+				
+
+				<div id="highlights" class="highlights">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 col-xs-12">
+								<img src="images/icons/stern.png"/>
+								<h2>Highlights</h2>
+							</div>
+							<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+							  	<div class="col-sm-3 col-xs-6 col-xxs-12">
+							  		<div class="imageBoxes clearfix" style="clear: both; position: relative;">
+						              	<div class="small-12 medium-6 large-6 columns noPadding">
+						                	<a class="relPosition" data-equalizer-watch="" style="height: 320px;">
+						                  		<div style="background-image: url('images/highlight/mini-curry-trigon-vietime.jpg');"></div>
+						                  		<div class="imageBoxDesc">
+						                    		<div class="imageBoxesTitle">
+						                      			<span class="title">Mini Curry Trigon</span>
+						                      			<div class="divider"></div>
+						                    		</div>
+						                    		<p class="smallText">Gebackene vegetarische Mini Curry Trigon, gefüllt mit Gemüse & Curry; serviert mit gemischtem Salat & Chili-Curry Dip</p> 
+						                  		</div>
+						                	</a> 
+						              	</div>
+						            </div>
+							  	</div>
+							  	<div class="col-sm-3 col-xs-6 col-xxs-12">
+							  		<div class="q2">
+							  		<div class="imageBoxes clearfix" style="display: block;clear: both; position: relative;">
+						              	<div class="small-12 medium-6 large-6 columns noPadding">
+						                	<a class="relPosition" data-equalizer-watch="" style="height: 320px;">
+						                  		<div style="background-image: url('images/highlight/nudeln-huhn-vietime.jpg');"></div>
+						                  		<div class="imageBoxDesc">
+						                    		<div class="imageBoxesTitle">
+						                      			<span class="title">Phở Xào Gà</span>
+						                      			<div class="divider"></div>
+						                    		</div>
+						                    		<p class="smallText">Reisbandnudeln, gebraten, mit Hühnerfleisch, Sojasprossen, Sellerie, Frühlingszwiebeln & asiatisch Kräutern</p> 
+						                  		</div>
+						                	</a> 
+						              	</div>
+						            </div>
+						            </div>
+							  	</div>			
+							  	<div class="col-sm-3 col-xs-6 col-xxs-12">
+							  	 	<div class="q1">
+							  		<div class="imageBoxes clearfix" style=" clear: both; position: relative;">
+						              	<div class="small-12 medium-6 large-6 columns noPadding">
+						                	<a class="relPosition" data-equalizer-watch="" style="height: 320px;">
+						                  		<div style="background-image: url('images/highlight/gegrillte-dorade-fisch-vietime.jpg');"></div>
+						                  		<div class="imageBoxDesc">
+						                    		<div class="imageBoxesTitle">
+						                      			<span class="title">CÁ NƯỚNG XẢ ỚT</span>
+						                      			<div class="divider"></div>
+						                    		</div>
+						                    		<p class="smallText">Marinierte ganze Dorade vom Grill. Mit Chili, Zitronengras, Knoblauch und Zwiebeln. Serviert mit Duftreis und frischem gemischtem Salat</p> 
+						                  		</div>
+						                	</a> 
+						              	</div>
+						            </div>
+						            </div>
+							  	</div>						  	
+							  	<div class="col-sm-3 col-xs-6 col-xxs-12">
+							  		<div class="q1">
+							  		<div class="imageBoxes clearfix" style="clear: both; position: relative;">
+						              	<div class="small-12 medium-6 large-6 columns noPadding">
+						                	<a class="relPosition" data-equalizer-watch="" style="height: 320px;">
+						                  		<div style="background-image: url('images/highlight/tagesangenbot-vietime.jpg');"></div>
+						                  		<div class="imageBoxDesc">
+						                    		<div class="imageBoxesTitle">
+						                      			<span>Tagesangebot</span>
+						                      			<div class="divider"></div>
+						                    		</div>
+						                    		<p class="smallText">...</p> 
+						                  		</div>
+						                	</a> 
+						              	</div>
+						            </div>
+						        </div>
+								    <!-- <img src="images/highlight/tagesangenbot-vietime.jpg"/> -->
+							  	</div>
+							  	
+							</div>
+					  	</div>
+					</div>
+				</div><!-- End .highlights -->
+
+				<div id="a-la-carte" class="a-la-carte">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 col-xs-12">
+								<img src="images/icons/karte.png"/>
+								<h2>À la carte</h2>
+							</div>
+							<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+							  	<div class="row">
+							  	</div>
+							  	<div class="row btn-menu">
+								  	<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+								  		<a href="/WEB_Speisekarte_Vietime.pdf" class="zur-speisekarte">Zur Speisekarte</a>
+								  	</div>
+							  	</div>
+							</div>
+					  	</div>
+					</div>
+				</div><!-- End .a-la-carte -->
+
+				
+				<div class="diagonal_top"></div>
+				<div id="testimonial" class="comments">
+					<div class="container">
+						<div class="row">
+							<div class="header col-sm-12 col-xs-12">
+								<img src="images/icons/feedbacks.png"/>
+								<h2>Was sagen unsere Kunden</h2>
+							</div>
+							<div id="testimonials-wrap" class="col-md-8 col-md-offset-2">
+							</div>
+						</div>
+					</div>
+				</div><!-- End .comments -->
+				<div class="diagonal_bottom"></div>
+				
+
+				<div id="galerie" class="galerie">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 col-xs-12">
+								<img src="images/icons/kamera.png"/>
+								<h2>Galerie</h2>
+							</div>
+							<div id="galerie-wrap" class="col-sm-10 col-sm-offset-1 col-xs-12">
+							  	
+							</div>
+						</div>
+					</div>
+				</div><!-- End .galerie -->
+
+				
+				<div class="diagonal_top"></div>
+				<div id="lieferservice" class="lieferservice">
+					<div class="container">
+						<div class="row">
+							<div class="header col-sm-12 col-xs-12">
+								<img src="images/icons/auto.png"/>
+								<h2>lieferservice</h2>
+							</div>
+							<div class="content col-sm-10 col-sm-offset-1 col-xs-12">
+							  	<div class="content-left col-sm-5 col-xs-12">
+							  		<p>„Enjoy Vietime. Anytime“ lautet unser Motto. </p>
+ 									<p>Für alle, die Vietime Essen bequem zuhause genießen möchten, bieten wir zusätzlich ab Mai 2016 den Lieferdienst an. Innerhalb des Umkreis von 3 Kilometern fällt keine Lieferkosten für Bestellung ab 15€ an. Sollte die Lieferadresse über 3 Kilometern von Vietimes Lokal entfernt sein, berechnen wir einen kleinen Aufpreis dazu. Lieferbestellungen nehmen wir ausschließlich telefonisch an.</p>
+									<p>Wir liefern von Montag bis Freitag zwischen 16 Uhr bis 21:30 Uhr und  Sonntag zwischen 14 Uhr und  21:30 Uhr. Samstag geschlossen. Infos zu Lieferzeiten an Feiertage erkundigen Sie bitte telefonisch bei uns oder online auf unserer <a href="https://www.facebook.com/Vietime-866345713455781/" target="_blank">Facebook-Seite</a></p>
+							  	</div>
+							  	<div class="col-sm-7 col-xs-12">
+								    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:320px;width:100%;'><div id='gmap_canvas' style='height:320px;width:100%;'></div><div><small>
+								    <!--
+								    <a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.autohuren.world/">auto huren</a>-->
+								    </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(52.5286712,13.385700000000043),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.5286712,13.385700000000043)});infowindow = new google.maps.InfoWindow({content:'<strong>Vietime</strong><br>Chausseestraße 11, 10115 Berlin<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+							  	</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- End .lieferservice -->
+				<div class="diagonal_bottom"></div>
+				
+
+				<div id="kontakt" class="kontakt">
+					<div class="container">
+						<form id="kontakt-form" name="kontakt-form" method="post">
+							<div class="row">
+								<div class="header col-sm-12 col-xs-12">
+									<img src="images/icons/brief.png"/>
+									<h2>KONTAKT</h2>
+								</div>
+								<div class="content col-sm-8 col-sm-offset-2 col-xs-12">
+								  	<div class="col-sm-6 col-xs-12 form-group">
+									    <label>Name</label> <span style="font-size: 20px; color: #ff0000;"> *</span>
+									    <input id="name" name="name" type="text" class="form-control">
+								  	</div>
+								  	<div class="col-sm-6 col-xs-12 form-group">
+									    <label>E-Mail</label> <span style="font-size: 20px; color: #ff0000;"> *</span>
+									    <input id="email" name="email" type="email" class="form-control">
+								  	</div>
+								  	<div class="col-sm-12 col-xs-12 form-group">
+									    <label>Nachricht</label> <span style="font-size: 20px; color: #ff0000;"> *</span>
+									    <textarea id="nachricht" name="nachricht" ></textarea>
+								  	</div>
+								  	<!--<div class="col-sm-6 col-sm-offset-3 col-xs-12 form-group">
+									    <button id="btn-contact-form" type="submit button" class="btn-senden btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Senden</button>-->
+								    <div class="col-sm-6 col-sm-offset-3 col-xs-12 form-group">
+								   		
+
+										<div id="frmContact2" style="text-align: center;">
+											
+											<div>									
+												<img id="captcha_code2" class="img-rounded" style=" margin:10px; border: 2px solid black;" src="vendor/captcha_code.php" />
+												<input type="text" name="captcha2" style=" text-align: center; width: 100px; color: red;" id="captcha2" class="demoInputBox">
+												<div name="submit" style="background: rgba(255, 255, 255, 0); margin-left: 10px; border: 1px solid black; color: black;  "class="btn btnRefresh" onClick="refreshCaptcha2();">
+													<img style="width: 20px;margin-left:  height: 20px; " src="images/icons/refresh2.png" />
+												</div>
+												<div id="mail-status2" style="color: #ff0000;"></div>
+											</div>									
+										</div>										
+										<button name="submit" type="submit" id="btn-contact-form" class="btnAction btn-senden" >Senden</button>											
+									  <!-- Modal -->
+									  <div class="modal fade" id="myModal2" role="dialog">
+									    <div class="modal-dialog">	
+									      <div class="modal-content">
+									        <div class="modal-header" style=" background-color: #F8CE00">
+									         <button type="button" class="close" data-dismiss="modal">&times;</button>
+									        <img src="http://elnove.com/myalert/img/icon_alert_success.jpg" class="img-circle center-block" alt="Cinque Terre">								         								          
+									        </div>
+									        <div class="modal-body text-center" style=" background-color: #E3EAEF">
+									          <p style="font-size: 20px">Thanks for Contact</p>								        
+									          <button type="button" class="btn btn-default center-block" style="width:40%; background-color:#F8CE00;" data-dismiss="modal">OK</button>
+									        </div>								        								       
+									      </div>									      
+									    </div>
+									  </div>
+
+									   <div class="modal fade" id="myModal1" role="dialog">
+									    <div class="modal-dialog">					
+									      <div class="modal-content">
+									        <div class="modal-header" style=" background-color: #F8CE00">
+									         <button type="button" class="close" data-dismiss="modal">&times;</button>
+									        <img src="http://elnove.com/myalert/img/icon_alert_success.jpg" class="img-circle center-block" alt="Cinque Terre">								         								          
+									        </div>
+									        <div class="modal-body text-center" style=" background-color: #E3EAEF">
+									          <p style="font-size: 20px">Thanks for Reservierung </p>								        
+									          <button type="button" class="btn btn-default center-block" style="width:40%; background-color:#F8CE00;" data-dismiss="modal">OK</button>
+									        </div>								        								       
+									      </div>									      
+									    </div>
+									  </div>
+
+									   <div class="modal fade" id="waiting">
+									    <div class="modal-dialog">
+									        <img src="images/icons/load.gif" class="img-rounded center-block" >	      
+									    </div>
+									  </div>
+
+
+
+
+									   <!--END  Modal -->
+									</div>
+						   
+								</div>
+						  	</div>
+						</form>
+					</div>
+				</div><!-- End .kontakt -->
+			</div><!-- End Main Wrapper -->
+
+			
+			<div class="diagonal_top"></div>
+			<!-- Footer of website -->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+						  	<div class="row">
+						  		<div class="col-sm-4">
+						  			<div class="row">
+						  				<div class="col-xs-12"><h3>Vietime</h3></div>
+						  				<div class="col-xs-12"><p>Chausseestraße 11<br> 10115 Berlin</p></div>
+						  			</div>
+						  		</div>
+						  		<div class="col-sm-4">
+						  			<div class="row">
+						  				<div class="col-xs-12"><h3>Öffnungszeiten</h3></div>
+						  				<div class="col-xs-12">
+						  					<p>
+						  						Montag - Freitag 12:00 - 22:30<br> 
+						  						Sonntag 12.00 - 22.30<br> 
+												Samstag geschlossen
+						  					</p>
+					  					</div>
+						  			</div>
+						  		</div>
+						  		<div class="col-sm-4">
+						  			<div class="row">
+						  				<div class="col-xs-12"></div>
+						  				<div class="socials col-xs-12">
+						  					<h3>
+							  				<a href="https://www.facebook.com/Vietime-866345713455781/" target="_blank"><img class="social-icon" src="images/socials/facebook.png" alt="facebook"></a>
+							  				<a href="https://google.com/+VietimeBerlin" target="_blank"><img class="social-icon" src="images/socials/google.png" alt="google"></a>
+							  				<a href="https://www.tripadvisor.de/Restaurant_Review-g187323-d8813600-Reviews-Vietime-Berlin.html#review_346157589" target="_blank"><img class="social-icon" src="images/socials/tripadvisor.png" alt="tripadvisor"></a>
+							  				<a href="https://de.foursquare.com/v/vietime/55fa9590498e3a875f99c7e8?fbLoginFailed=true" target="_blank"><img class="social-icon" src="images/socials/foursquare.png" alt="foursquare"></a>
+							  				<a href="http://www.yelp.com/biz/vietime-berlin" target="_blank"><img class="social-icon" src="images/socials/yelp.png" alt="yelp"></a>
+							  				</h3>
+						  				</div>
+						  				<div class="col-xs-12"><p><a href="/datenschutz.html">Datenschutz</a><br/><a href="/impressum.html">Impressum</a></p></div>
+						  			</div>
+						  		</div>
+						  	</div>
+						</div>
+				  	</div>
+				</div>
+			</footer>
+  		</div>
+
+  		<a href="#header-block" id="back-to-top" title="Back to top" class="menu-item">
+  			<span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+  		</a>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="vendor/datetimepicker-master/jquery.js"></script>
+	<script src="vendor/datetimepicker-master/build/jquery.datetimepicker.full.js"></script>	
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/less.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script type="text/javascript" src="ajax/plugin.js" ></script>
+
+</html>
+

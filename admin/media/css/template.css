@@ -1,0 +1,29 @@
+/**********************************************************************
+*** Common Style
+***********************************************************************/
+ .ocoder { padding-top: 40px; }
+
+
+
+/**********************************************************************
+*** For navigation
+***********************************************************************/
+.ocoder .navbar .container-fluid { background-color: #003466; }
+.ocoder .nav .dropdown-toggle .caret { border-top-color: #8FA5BC; }
+.ocoder .nav li:hover { background-color: #296CA3; }
+.ocoder .nav li:hover .dropdown-toggle .caret { border-top-color: #FFF; }
+.ocoder ul.nav, .ocoder ul.nav li { position: relative; }
+.ocoder ul.nav ul { display:none; position: absolute; margin-top: 0px; }
+.ocoder ul.nav li:hover > ul { display:block; z-index: 10; }
+.ocoder .navbar-inverse .nav > li > a { color: #FFF; }
+
+
+.table-issue.table-bordered { border-left: 1px solid #DDD; }
+.table-issue.table-bordered td, .table-issue.table-bordered th { border-left: none; }
+.table-issue.table-bordered th.header-title { background-color: #369; color: #FFF; }
+
+
+/**********************************************************************
+*** For footer
+***********************************************************************/
+.ocoder .footer { background-color: #F5F5F5; border-top: 1px solid #E5E5E5; text-align: center; padding: 30px 0; }
